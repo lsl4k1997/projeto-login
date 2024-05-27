@@ -55,3 +55,55 @@ section#login > div#formulario {
     padding: 10px;
 
 }
+div.campo{
+
+}
+
+div#formulario {
+    text-align: center;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 230px;
+    height: 40px;
+    background-color: aqua;
+    color: white;
+    border: 0px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+form > input[type=submit]:hover {
+    background-color: rgb(0, 175, 175);
+
+}
+
+form > a.botao {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 175, 175);
+    width: 230px;
+    height: 40px;
+    margin: auto;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(0, 175, 175);
+    margin-top: 5px;
+}
+form > a.botao:hover{
+    background-color: rgb(0, 175, 175);
+    color: rgb(1, 104, 104);
+}
+.campo2 > label{
+    display: none;
+}
+.campo2 {
+    display: block;
+    background-color: #5f2c82;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+}
